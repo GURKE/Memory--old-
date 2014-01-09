@@ -1,0 +1,48 @@
+﻿Der Buildvorgang wurde am 09.01.2014 14:14:09 gestartet.
+     1>Projekt "C:\Users\Julian\Documents\Visual Studio 2013\Projects\Memory\Ü9A1\Ü9A1.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Ü9A1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Programs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Memory.cpp Object.cpp
+         Object.cpp
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\object.h(14): error C2079: 'Object::picture' verwendet undefiniertes struct 'Picture'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\object.h(15): error C2079: 'Object::card' verwendet undefiniertes struct 'Card'
+         Game.cpp
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\object.h(14): error C2079: 'Object::picture' verwendet undefiniertes struct 'Picture'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(103): error C2228: Links von ".Create_picture_By_Text" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(112): error C2228: Links von ".Create_picture_By_Text" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(118): error C2228: Links von ".Create_picture_By_Text" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(138): error C2228: Links von ".picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(138): error C2227: Links von "->w" muss sich ein Zeiger auf Klassen-/Struktur-/Union-/generischen Typ befinden.
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(139): error C2228: Links von ".picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(139): error C2227: Links von "->h" muss sich ein Zeiger auf Klassen-/Struktur-/Union-/generischen Typ befinden.
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(159): warning C4244: 'Argument': Konvertierung von 'time_t' in 'unsigned int', möglicher Datenverlust
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(174): error C2228: Links von ".Create_picture_By_Text" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(183): error C2228: Links von ".Create_picture_By_Text" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(202): error C2228: Links von ".load_picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(203): error C2228: Links von ".picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(233): error C2440: '=': 'Picture' kann nicht in 'int' konvertiert werden
+                 Kein benutzerdefinierter Konvertierungsoperator verfügbar, der diese Konvertierung durchführen kann, oder der Operator kann nicht aufgerufen werden
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(234): error C2440: '=': 'int *' kann nicht in 'Picture *' konvertiert werden
+                 Die Typen, auf die verwiesen wird, sind nicht verknüpft; die Konvertierung erfordert einen reinterpret_cast-Operator oder eine Typumwandlung im C- oder Funktionsformat.
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(258): error C2228: Links von ".picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+     1>c:\users\julian\documents\visual studio 2013\projects\memory\ü9a1\game.cpp(263): error C2228: Links von ".picture" muss sich eine Klasse/Struktur/Union befinden.
+                 Typ ist 'int'
+         Code wird generiert...
+         Kompilieren...
+         Memory.cpp
+         Code wird generiert...
+     1>Die Erstellung des Projekts "C:\Users\Julian\Documents\Visual Studio 2013\Projects\Memory\Ü9A1\Ü9A1.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+
+Fehler beim Buildvorgang.
+
+Verstrichene Zeit 00:00:01.36
