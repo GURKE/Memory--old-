@@ -7,14 +7,12 @@ TTF_Font *font;
 
 struct Picture
 {
-	Picture() {};
-
 	int ID;
 	SDL_Surface *picture;
 	char filename[1000];
-
-	void load_picture(char Filename[100]);
-	void Create_picture_By_Text(char Text[1000], int Highlighted);
 };
+
+extern struct Picture load_picture(struct Picture p, char Filename[100]);
+extern struct Picture Create_Picture_By_Text(struct Picture p, char Text[1000], int Highlighted);
 
 #endif

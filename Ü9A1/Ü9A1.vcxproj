@@ -94,12 +94,12 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Card.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Object.cpp" />
-    <ClCompile Include="Picture.cpp" />
+    <ClCompile Include="Card.c" />
+    <ClCompile Include="Game.c" />
+    <ClCompile Include="Object.c" />
+    <ClCompile Include="Picture.c" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="Memory.cpp" />
+    <ClCompile Include="Memory.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

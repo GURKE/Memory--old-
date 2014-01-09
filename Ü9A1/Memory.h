@@ -16,6 +16,8 @@
 #define EXTENDED_VERSION
 Uint32 _bg_color;
 
-int start_game(int amplayers, int card_background_id, Card stack[], int AmCards, int SizeX, int SizeY);
+SDL_Surface *_screen;
+
+int start_game(int amplayers, struct Card stack[], int AmCards, int SizeX, int SizeY, struct Picture *BG);
 
 #endif

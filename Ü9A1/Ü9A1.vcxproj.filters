@@ -41,19 +41,19 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Memory.cpp">
+    <ClCompile Include="Card.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="Game.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Picture.cpp">
+    <ClCompile Include="Memory.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Object.cpp">
+    <ClCompile Include="Object.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Card.cpp">
+    <ClCompile Include="Picture.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

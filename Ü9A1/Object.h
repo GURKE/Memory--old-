@@ -1,21 +1,22 @@
 #ifndef _OBJECT_H_
 #define _OBJECT_H_
 
+#include "Card.h"
+#include "Picture.h"
+
 #pragma warning( disable : 4996 )
 
 struct Object
 {
-	Object() {};
-
 	Sint16 x, y;
 	Uint16 type; // 0 = hard/background, 1 = card
-	bool enabled = true;
+	int enabled;
 
 	struct Picture picture;
 	struct Card card;
-
-	bool IS_NULL();
-	SDL_Rect Create_Rect();
 };
+
+int IS_NULL(struct Object o);
+extern SDL_Rect *Create_Rect_BO(struct Object o);
 
 #endif
